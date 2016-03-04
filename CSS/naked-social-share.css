@@ -1,0 +1,54 @@
+/* ---------------------------------------------
+## Naked Social Share
+## Website: https://wordpress.org/plugins/naked-social-share/
+--------------------------------------------- */
+
+.naked-social-share {
+	text-align: center;
+	font-size: 14px;
+	background: #1F1B1C;
+	padding: 5px 0;
+}
+
+.naked-social-share li {
+	width: 30%;
+}
+
+.naked-social-share a {
+	background: none !important;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1.5px;
+	padding: 10px !important;
+}
+
+.naked-social-share a:hover {
+}
+
+.naked-social-share ul {
+	margin-left: 0;
+}
+
+.naked-social-share .fa {
+	color: #ffffff;
+}
+
+@media only screen and (max-width: 800px) {
+	.naked-social-share {
+		font-size: 20px;
+	}
+	.naked-social-share li {
+		width: 25%;
+		padding: 2px 8px;
+	}
+	.naked-social-share a:hover {
+		background: none !important;
+	}
+
+	.naked-social-share i {
+		display: block;
+	}
+	.nss-site-name, .nss-site-count {
+		display: none;
+	}
+}
