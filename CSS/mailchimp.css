@@ -1,0 +1,26 @@
+/* ---------------------------------------------
+## MailChimp Signup Form (below posts)
+--------------------------------------------- */
+
+#mc_embed_signup {
+	padding: 20px;
+	background: #F8E7E1;
+}
+
+#mc_embed_signup h3 {
+	text-align: center;
+}
+
+.mc-field-group {
+	padding: 10px 0;
+}
+
+#mc_embed_signup .clear {
+	padding: 3px 0;
+	text-align: center;
+}
+
+#mc_embed_signup .button:hover {
+	background: #FCF5F3;
+	color: #1F1B1C;
+}
