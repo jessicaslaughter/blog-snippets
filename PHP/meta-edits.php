@@ -1,3 +1,5 @@
+<?php
+
 //* Customize the entry meta in the entry header
 add_filter( 'genesis_post_info', 'sp_post_info_filter' );
 function sp_post_info_filter($post_info) {
